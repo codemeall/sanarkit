@@ -1,0 +1,55 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SanarKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Sanar",
+        "printedName": "Sanar",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "console",
+            "printedName": "console()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8SanarKit0A0V7consoleyyF",
+            "mangledName": "$s8SanarKit0A0V7consoleyyF",
+            "moduleName": "SanarKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8SanarKit0A0V",
+        "mangledName": "$s8SanarKit0A0V",
+        "moduleName": "SanarKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
