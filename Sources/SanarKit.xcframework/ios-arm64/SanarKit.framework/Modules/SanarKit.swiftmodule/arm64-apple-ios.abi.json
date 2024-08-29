@@ -595,118 +595,6 @@
             "printedName": "Coordinator",
             "children": [
               {
-                "kind": "Var",
-                "name": "parent",
-                "printedName": "parent",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "BWebView",
-                    "printedName": "SanarKit.BWebView",
-                    "usr": "s:8SanarKit8BWebViewV"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:8SanarKit8BWebViewV11CoordinatorC6parentACvp",
-                "mangledName": "$s8SanarKit8BWebViewV11CoordinatorC6parentACvp",
-                "moduleName": "SanarKit",
-                "isOpen": true,
-                "declAttributes": [
-                  "HasStorage"
-                ],
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "BWebView",
-                        "printedName": "SanarKit.BWebView",
-                        "usr": "s:8SanarKit8BWebViewV"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:8SanarKit8BWebViewV11CoordinatorC6parentACvg",
-                    "mangledName": "$s8SanarKit8BWebViewV11CoordinatorC6parentACvg",
-                    "moduleName": "SanarKit",
-                    "implicit": true,
-                    "isOpen": true,
-                    "accessorKind": "get"
-                  },
-                  {
-                    "kind": "Accessor",
-                    "name": "Set",
-                    "printedName": "Set()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "BWebView",
-                        "printedName": "SanarKit.BWebView",
-                        "usr": "s:8SanarKit8BWebViewV"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:8SanarKit8BWebViewV11CoordinatorC6parentACvs",
-                    "mangledName": "$s8SanarKit8BWebViewV11CoordinatorC6parentACvs",
-                    "moduleName": "SanarKit",
-                    "implicit": true,
-                    "isOpen": true,
-                    "accessorKind": "set"
-                  },
-                  {
-                    "kind": "Accessor",
-                    "name": "Modify",
-                    "printedName": "Modify()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:8SanarKit8BWebViewV11CoordinatorC6parentACvM",
-                    "mangledName": "$s8SanarKit8BWebViewV11CoordinatorC6parentACvM",
-                    "moduleName": "SanarKit",
-                    "implicit": true,
-                    "isOpen": true,
-                    "accessorKind": "_modify"
-                  }
-                ]
-              },
-              {
-                "kind": "Constructor",
-                "name": "init",
-                "printedName": "init(parent:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Coordinator",
-                    "printedName": "SanarKit.BWebView.Coordinator",
-                    "usr": "s:8SanarKit8BWebViewV11CoordinatorC"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "BWebView",
-                    "printedName": "SanarKit.BWebView",
-                    "usr": "s:8SanarKit8BWebViewV"
-                  }
-                ],
-                "declKind": "Constructor",
-                "usr": "s:8SanarKit8BWebViewV11CoordinatorC6parentAeC_tcfc",
-                "mangledName": "$s8SanarKit8BWebViewV11CoordinatorC6parentAeC_tcfc",
-                "moduleName": "SanarKit",
-                "init_kind": "Designated"
-              },
-              {
                 "kind": "Function",
                 "name": "webView",
                 "printedName": "webView(_:decidePolicyFor:decisionHandler:)",
@@ -751,7 +639,6 @@
                 "usr": "s:8SanarKit8BWebViewV11CoordinatorC03webD0_15decidePolicyFor15decisionHandlerySo05WKWebD0C_So18WKNavigationActionCySo0mnH0VctF",
                 "mangledName": "$s8SanarKit8BWebViewV11CoordinatorC03webD0_15decidePolicyFor15decisionHandlerySo05WKWebD0C_So18WKNavigationActionCySo0mnH0VctF",
                 "moduleName": "SanarKit",
-                "isOpen": true,
                 "objc_name": "webView:decidePolicyForNavigationAction:decisionHandler:",
                 "declAttributes": [
                   "ObjC",
@@ -786,7 +673,6 @@
                 "usr": "s:8SanarKit8BWebViewV11CoordinatorC21userContentController_10didReceiveySo06WKUsergH0C_So15WKScriptMessageCtF",
                 "mangledName": "$s8SanarKit8BWebViewV11CoordinatorC21userContentController_10didReceiveySo06WKUsergH0C_So15WKScriptMessageCtF",
                 "moduleName": "SanarKit",
-                "isOpen": true,
                 "objc_name": "userContentController:didReceiveScriptMessage:",
                 "declAttributes": [
                   "ObjC",
@@ -825,7 +711,6 @@
             "usr": "s:8SanarKit8BWebViewV11CoordinatorC",
             "mangledName": "$s8SanarKit8BWebViewV11CoordinatorC",
             "moduleName": "SanarKit",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -989,25 +874,6 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Sanar",
-                "printedName": "SanarKit.Sanar",
-                "usr": "s:8SanarKit0A0V"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:8SanarKit0A0VACycfc",
-            "mangledName": "$s8SanarKit0A0VACycfc",
-            "moduleName": "SanarKit",
-            "implicit": true,
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Struct",
@@ -1911,118 +1777,6 @@
             "printedName": "Coordinator",
             "children": [
               {
-                "kind": "Var",
-                "name": "parent",
-                "printedName": "parent",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "WebView",
-                    "printedName": "SanarKit.WebView",
-                    "usr": "s:8SanarKit7WebViewV"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:8SanarKit7WebViewV11CoordinatorC6parentACvp",
-                "mangledName": "$s8SanarKit7WebViewV11CoordinatorC6parentACvp",
-                "moduleName": "SanarKit",
-                "isOpen": true,
-                "declAttributes": [
-                  "HasStorage"
-                ],
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "WebView",
-                        "printedName": "SanarKit.WebView",
-                        "usr": "s:8SanarKit7WebViewV"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:8SanarKit7WebViewV11CoordinatorC6parentACvg",
-                    "mangledName": "$s8SanarKit7WebViewV11CoordinatorC6parentACvg",
-                    "moduleName": "SanarKit",
-                    "implicit": true,
-                    "isOpen": true,
-                    "accessorKind": "get"
-                  },
-                  {
-                    "kind": "Accessor",
-                    "name": "Set",
-                    "printedName": "Set()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "WebView",
-                        "printedName": "SanarKit.WebView",
-                        "usr": "s:8SanarKit7WebViewV"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:8SanarKit7WebViewV11CoordinatorC6parentACvs",
-                    "mangledName": "$s8SanarKit7WebViewV11CoordinatorC6parentACvs",
-                    "moduleName": "SanarKit",
-                    "implicit": true,
-                    "isOpen": true,
-                    "accessorKind": "set"
-                  },
-                  {
-                    "kind": "Accessor",
-                    "name": "Modify",
-                    "printedName": "Modify()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:8SanarKit7WebViewV11CoordinatorC6parentACvM",
-                    "mangledName": "$s8SanarKit7WebViewV11CoordinatorC6parentACvM",
-                    "moduleName": "SanarKit",
-                    "implicit": true,
-                    "isOpen": true,
-                    "accessorKind": "_modify"
-                  }
-                ]
-              },
-              {
-                "kind": "Constructor",
-                "name": "init",
-                "printedName": "init(parent:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Coordinator",
-                    "printedName": "SanarKit.WebView.Coordinator",
-                    "usr": "s:8SanarKit7WebViewV11CoordinatorC"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "WebView",
-                    "printedName": "SanarKit.WebView",
-                    "usr": "s:8SanarKit7WebViewV"
-                  }
-                ],
-                "declKind": "Constructor",
-                "usr": "s:8SanarKit7WebViewV11CoordinatorC6parentAeC_tcfc",
-                "mangledName": "$s8SanarKit7WebViewV11CoordinatorC6parentAeC_tcfc",
-                "moduleName": "SanarKit",
-                "init_kind": "Designated"
-              },
-              {
                 "kind": "Function",
                 "name": "webView",
                 "printedName": "webView(_:decidePolicyFor:decisionHandler:)",
@@ -2067,7 +1821,6 @@
                 "usr": "s:8SanarKit7WebViewV11CoordinatorC03webD0_15decidePolicyFor15decisionHandlerySo05WKWebD0C_So18WKNavigationActionCySo0mnH0VctF",
                 "mangledName": "$s8SanarKit7WebViewV11CoordinatorC03webD0_15decidePolicyFor15decisionHandlerySo05WKWebD0C_So18WKNavigationActionCySo0mnH0VctF",
                 "moduleName": "SanarKit",
-                "isOpen": true,
                 "objc_name": "webView:decidePolicyForNavigationAction:decisionHandler:",
                 "declAttributes": [
                   "ObjC",
@@ -2102,7 +1855,6 @@
                 "usr": "s:8SanarKit7WebViewV11CoordinatorC21userContentController_10didReceiveySo06WKUsergH0C_So15WKScriptMessageCtF",
                 "mangledName": "$s8SanarKit7WebViewV11CoordinatorC21userContentController_10didReceiveySo06WKUsergH0C_So15WKScriptMessageCtF",
                 "moduleName": "SanarKit",
-                "isOpen": true,
                 "objc_name": "userContentController:didReceiveScriptMessage:",
                 "declAttributes": [
                   "ObjC",
@@ -2141,7 +1893,6 @@
             "usr": "s:8SanarKit7WebViewV11CoordinatorC",
             "mangledName": "$s8SanarKit7WebViewV11CoordinatorC",
             "moduleName": "SanarKit",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -2300,66 +2051,6 @@
         "name": "SanarCare",
         "printedName": "SanarCare",
         "children": [
-          {
-            "kind": "Var",
-            "name": "socket",
-            "printedName": "socket",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "SocketIO.SocketIOClient?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SocketIOClient",
-                    "printedName": "SocketIO.SocketIOClient",
-                    "usr": "c:@M@SocketIO@objc(cs)SocketIOClient"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8SanarKit0A4CareV6socket8SocketIO0E8IOClientCSgvp",
-            "mangledName": "$s8SanarKit0A4CareV6socket8SocketIO0E8IOClientCSgvp",
-            "moduleName": "SanarKit",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "SetterAccess"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "SocketIO.SocketIOClient?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "SocketIOClient",
-                        "printedName": "SocketIO.SocketIOClient",
-                        "usr": "c:@M@SocketIO@objc(cs)SocketIOClient"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8SanarKit0A4CareV6socket8SocketIO0E8IOClientCSgvg",
-                "mangledName": "$s8SanarKit0A4CareV6socket8SocketIO0E8IOClientCSgvg",
-                "moduleName": "SanarKit",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
           {
             "kind": "Var",
             "name": "clientAuth",
