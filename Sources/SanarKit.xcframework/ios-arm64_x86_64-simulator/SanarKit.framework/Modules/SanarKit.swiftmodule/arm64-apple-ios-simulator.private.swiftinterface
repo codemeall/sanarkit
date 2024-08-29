@@ -3,7 +3,6 @@
 // swift-module-flags: -target arm64-apple-ios17.5-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name SanarKit
 import Foundation
 @_exported import SanarKit
-import SocketIO
 import Swift
 import SwiftUI
 import WebKit
@@ -36,27 +35,6 @@ public struct BWebView : SwiftUI.UIViewRepresentable {
   public typealias Body = Swift.Never
   public typealias UIViewType = WebKit.WKWebView
 }
-public struct Sanar {
-  public func console()
-}
-public struct ServiceView : SwiftUI.View {
-  @SwiftUI.Binding @_projectedValueProperty($isNavigationActive) public var isNavigationActive: Swift.Bool {
-    get
-    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-    nonmutating set
-    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-    nonmutating _modify
-  }
-  public var $isNavigationActive: SwiftUI.Binding<Swift.Bool> {
-    get
-  }
-  public init(isNavigationActive: SwiftUI.Binding<Swift.Bool>)
-  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
-    get
-  }
-  public typealias Body = @_opaqueReturnTypeOf("$s8SanarKit11ServiceViewV4bodyQrvp", 0) __
-}
-
 public struct WebView : SwiftUI.UIViewRepresentable {
   public let url: Foundation.URL
   public let onNavigationAction: ((Foundation.URL) -> Swift.Void)?
@@ -83,17 +61,31 @@ public struct WebView : SwiftUI.UIViewRepresentable {
   public typealias Body = Swift.Never
   public typealias UIViewType = WebKit.WKWebView
 }
-public struct SanarCare {
+public struct ServiceView : SwiftUI.View {
+  @SwiftUI.Binding @_projectedValueProperty($isNavigationActive) public var isNavigationActive: Swift.Bool {
+    get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    nonmutating set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    nonmutating _modify
+  }
+  public var $isNavigationActive: SwiftUI.Binding<Swift.Bool> {
+    get
+  }
+  public init(isNavigationActive: SwiftUI.Binding<Swift.Bool>)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s8SanarKit11ServiceViewV4bodyQrvp", 0) __
+}
+
+public struct SanarConnect {
   public static var clientAuth: [Swift.String : Any]?
   public init()
   #if compiler(>=5.3) && $AsyncAwait
   public static func sanarConnect(cid: Swift.String, bundleId: Swift.String, requestBody: [Swift.String : Any]) async throws -> Swift.String
   #endif
-  public func sanarDisconnect()
-  public static func getClientDetails() -> [Swift.String : Any]?
-  public mutating func subscribeEvent(uid: Swift.String, did: Swift.String)
-  public func unsubscribeEvents()
-  public func on(event: Swift.String, callback: @escaping (Any) -> Swift.Void)
+  public static func sanarDisconnect()
 }
 public struct BookingListView : SwiftUI.View {
   @SwiftUI.Binding @_projectedValueProperty($isNavigationActive) public var isNavigationActive: Swift.Bool {

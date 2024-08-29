@@ -842,352 +842,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SanarKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Sanar",
-        "printedName": "Sanar",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "console",
-            "printedName": "console()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8SanarKit0A0V7consoleyyF",
-            "mangledName": "$s8SanarKit0A0V7consoleyyF",
-            "moduleName": "SanarKit",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:8SanarKit0A0V",
-        "mangledName": "$s8SanarKit0A0V",
-        "moduleName": "SanarKit",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "SanarKit"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "ServiceView",
-        "printedName": "ServiceView",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "isNavigationActive",
-            "printedName": "isNavigationActive",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8SanarKit11ServiceViewV18isNavigationActiveSbvp",
-            "mangledName": "$s8SanarKit11ServiceViewV18isNavigationActiveSbvp",
-            "moduleName": "SanarKit",
-            "declAttributes": [
-              "ProjectedValueProperty",
-              "AccessControl",
-              "Custom"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8SanarKit11ServiceViewV18isNavigationActiveSbvg",
-                "mangledName": "$s8SanarKit11ServiceViewV18isNavigationActiveSbvg",
-                "moduleName": "SanarKit",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8SanarKit11ServiceViewV18isNavigationActiveSbvs",
-                "mangledName": "$s8SanarKit11ServiceViewV18isNavigationActiveSbvs",
-                "moduleName": "SanarKit",
-                "implicit": true,
-                "intro_Macosx": "10.15",
-                "intro_iOS": "13.0",
-                "intro_tvOS": "13.0",
-                "intro_watchOS": "6.0",
-                "declAttributes": [
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8SanarKit11ServiceViewV18isNavigationActiveSbvM",
-                "mangledName": "$s8SanarKit11ServiceViewV18isNavigationActiveSbvM",
-                "moduleName": "SanarKit",
-                "implicit": true,
-                "intro_Macosx": "10.15",
-                "intro_iOS": "13.0",
-                "intro_tvOS": "13.0",
-                "intro_watchOS": "6.0",
-                "declAttributes": [
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "$isNavigationActive",
-            "printedName": "$isNavigationActive",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Binding",
-                "printedName": "SwiftUI.Binding<Swift.Bool>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "usr": "s:7SwiftUI7BindingV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8SanarKit11ServiceViewV19$isNavigationActive7SwiftUI7BindingVySbGvp",
-            "mangledName": "$s8SanarKit11ServiceViewV19$isNavigationActive7SwiftUI7BindingVySbGvp",
-            "moduleName": "SanarKit",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Binding",
-                    "printedName": "SwiftUI.Binding<Swift.Bool>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "usr": "s:7SwiftUI7BindingV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8SanarKit11ServiceViewV19$isNavigationActive7SwiftUI7BindingVySbGvg",
-                "mangledName": "$s8SanarKit11ServiceViewV19$isNavigationActive7SwiftUI7BindingVySbGvg",
-                "moduleName": "SanarKit",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(isNavigationActive:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ServiceView",
-                "printedName": "SanarKit.ServiceView",
-                "usr": "s:8SanarKit11ServiceViewV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Binding",
-                "printedName": "SwiftUI.Binding<Swift.Bool>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "usr": "s:7SwiftUI7BindingV"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:8SanarKit11ServiceViewV18isNavigationActiveAC7SwiftUI7BindingVySbG_tcfc",
-            "mangledName": "$s8SanarKit11ServiceViewV18isNavigationActiveAC7SwiftUI7BindingVySbG_tcfc",
-            "moduleName": "SanarKit",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "body",
-            "printedName": "body",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8SanarKit11ServiceViewV4bodyQrvp",
-            "mangledName": "$s8SanarKit11ServiceViewV4bodyQrvp",
-            "moduleName": "SanarKit",
-            "declAttributes": [
-              "Custom",
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8SanarKit11ServiceViewV4bodyQrvg",
-                "mangledName": "$s8SanarKit11ServiceViewV4bodyQrvg",
-                "moduleName": "SanarKit",
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:8SanarKit11ServiceViewV",
-        "mangledName": "$s8SanarKit11ServiceViewV",
-        "moduleName": "SanarKit",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "View",
-            "printedName": "View",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI4ViewP",
-            "mangledName": "$s7SwiftUI4ViewP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -2024,18 +1678,310 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
+        "moduleName": "SanarKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ServiceView",
+        "printedName": "ServiceView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isNavigationActive",
+            "printedName": "isNavigationActive",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SanarKit11ServiceViewV18isNavigationActiveSbvp",
+            "mangledName": "$s8SanarKit11ServiceViewV18isNavigationActiveSbvp",
+            "moduleName": "SanarKit",
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SanarKit11ServiceViewV18isNavigationActiveSbvg",
+                "mangledName": "$s8SanarKit11ServiceViewV18isNavigationActiveSbvg",
+                "moduleName": "SanarKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SanarKit11ServiceViewV18isNavigationActiveSbvs",
+                "mangledName": "$s8SanarKit11ServiceViewV18isNavigationActiveSbvs",
+                "moduleName": "SanarKit",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SanarKit11ServiceViewV18isNavigationActiveSbvM",
+                "mangledName": "$s8SanarKit11ServiceViewV18isNavigationActiveSbvM",
+                "moduleName": "SanarKit",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$isNavigationActive",
+            "printedName": "$isNavigationActive",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SanarKit11ServiceViewV19$isNavigationActive7SwiftUI7BindingVySbGvp",
+            "mangledName": "$s8SanarKit11ServiceViewV19$isNavigationActive7SwiftUI7BindingVySbGvp",
+            "moduleName": "SanarKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<Swift.Bool>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SanarKit11ServiceViewV19$isNavigationActive7SwiftUI7BindingVySbGvg",
+                "mangledName": "$s8SanarKit11ServiceViewV19$isNavigationActive7SwiftUI7BindingVySbGvg",
+                "moduleName": "SanarKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(isNavigationActive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ServiceView",
+                "printedName": "SanarKit.ServiceView",
+                "usr": "s:8SanarKit11ServiceViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8SanarKit11ServiceViewV18isNavigationActiveAC7SwiftUI7BindingVySbG_tcfc",
+            "mangledName": "$s8SanarKit11ServiceViewV18isNavigationActiveAC7SwiftUI7BindingVySbG_tcfc",
+            "moduleName": "SanarKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SanarKit11ServiceViewV4bodyQrvp",
+            "mangledName": "$s8SanarKit11ServiceViewV4bodyQrvp",
+            "moduleName": "SanarKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SanarKit11ServiceViewV4bodyQrvg",
+                "mangledName": "$s8SanarKit11ServiceViewV4bodyQrvg",
+                "moduleName": "SanarKit",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8SanarKit11ServiceViewV",
+        "mangledName": "$s8SanarKit11ServiceViewV",
         "moduleName": "SanarKit",
         "declAttributes": [
-          "RawDocComment"
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
         ]
       },
       {
         "kind": "Import",
-        "name": "SocketIO",
-        "printedName": "SocketIO",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "SanarKit"
       },
@@ -2048,8 +1994,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "SanarCare",
-        "printedName": "SanarCare",
+        "name": "SanarConnect",
+        "printedName": "SanarConnect",
         "children": [
           {
             "kind": "Var",
@@ -2085,8 +2031,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8SanarKit0A4CareV10clientAuthSDySSypGSgvpZ",
-            "mangledName": "$s8SanarKit0A4CareV10clientAuthSDySSypGSgvpZ",
+            "usr": "s:8SanarKit0A7ConnectV10clientAuthSDySSypGSgvpZ",
+            "mangledName": "$s8SanarKit0A7ConnectV10clientAuthSDySSypGSgvpZ",
             "moduleName": "SanarKit",
             "static": true,
             "declAttributes": [
@@ -2131,8 +2077,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SanarKit0A4CareV10clientAuthSDySSypGSgvgZ",
-                "mangledName": "$s8SanarKit0A4CareV10clientAuthSDySSypGSgvgZ",
+                "usr": "s:8SanarKit0A7ConnectV10clientAuthSDySSypGSgvgZ",
+                "mangledName": "$s8SanarKit0A7ConnectV10clientAuthSDySSypGSgvgZ",
                 "moduleName": "SanarKit",
                 "static": true,
                 "implicit": true,
@@ -2177,8 +2123,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SanarKit0A4CareV10clientAuthSDySSypGSgvsZ",
-                "mangledName": "$s8SanarKit0A4CareV10clientAuthSDySSypGSgvsZ",
+                "usr": "s:8SanarKit0A7ConnectV10clientAuthSDySSypGSgvsZ",
+                "mangledName": "$s8SanarKit0A7ConnectV10clientAuthSDySSypGSgvsZ",
                 "moduleName": "SanarKit",
                 "static": true,
                 "implicit": true,
@@ -2196,8 +2142,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SanarKit0A4CareV10clientAuthSDySSypGSgvMZ",
-                "mangledName": "$s8SanarKit0A4CareV10clientAuthSDySSypGSgvMZ",
+                "usr": "s:8SanarKit0A7ConnectV10clientAuthSDySSypGSgvMZ",
+                "mangledName": "$s8SanarKit0A7ConnectV10clientAuthSDySSypGSgvMZ",
                 "moduleName": "SanarKit",
                 "static": true,
                 "implicit": true,
@@ -2212,14 +2158,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "SanarCare",
-                "printedName": "SanarKit.SanarCare",
-                "usr": "s:8SanarKit0A4CareV"
+                "name": "SanarConnect",
+                "printedName": "SanarKit.SanarConnect",
+                "usr": "s:8SanarKit0A7ConnectV"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:8SanarKit0A4CareVACycfc",
-            "mangledName": "$s8SanarKit0A4CareVACycfc",
+            "usr": "s:8SanarKit0A7ConnectVACycfc",
+            "mangledName": "$s8SanarKit0A7ConnectVACycfc",
             "moduleName": "SanarKit",
             "declAttributes": [
               "AccessControl"
@@ -2270,8 +2216,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8SanarKit0A4CareV12sanarConnect3cid8bundleId11requestBodyS2S_SSSDySSypGtYaKFZ",
-            "mangledName": "$s8SanarKit0A4CareV12sanarConnect3cid8bundleId11requestBodyS2S_SSSDySSypGtYaKFZ",
+            "usr": "s:8SanarKit0A7ConnectV05sanarC03cid8bundleId11requestBodyS2S_SSSDySSypGtYaKFZ",
+            "mangledName": "$s8SanarKit0A7ConnectV05sanarC03cid8bundleId11requestBodyS2S_SSSDySSypGtYaKFZ",
             "moduleName": "SanarKit",
             "static": true,
             "declAttributes": [
@@ -2293,152 +2239,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8SanarKit0A4CareV15sanarDisconnectyyF",
-            "mangledName": "$s8SanarKit0A4CareV15sanarDisconnectyyF",
-            "moduleName": "SanarKit",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getClientDetails",
-            "printedName": "getClientDetails()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String : Any]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Any]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8SanarKit0A4CareV16getClientDetailsSDySSypGSgyFZ",
-            "mangledName": "$s8SanarKit0A4CareV16getClientDetailsSDySSypGSgyFZ",
+            "usr": "s:8SanarKit0A7ConnectV15sanarDisconnectyyFZ",
+            "mangledName": "$s8SanarKit0A7ConnectV15sanarDisconnectyyFZ",
             "moduleName": "SanarKit",
             "static": true,
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "subscribeEvent",
-            "printedName": "subscribeEvent(uid:did:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8SanarKit0A4CareV14subscribeEvent3uid3didySS_SStF",
-            "mangledName": "$s8SanarKit0A4CareV14subscribeEvent3uid3didySS_SStF",
-            "moduleName": "SanarKit",
-            "declAttributes": [
-              "Mutating",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "Mutating"
-          },
-          {
-            "kind": "Function",
-            "name": "unsubscribeEvents",
-            "printedName": "unsubscribeEvents()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8SanarKit0A4CareV17unsubscribeEventsyyF",
-            "mangledName": "$s8SanarKit0A4CareV17unsubscribeEventsyyF",
-            "moduleName": "SanarKit",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "on",
-            "printedName": "on(event:callback:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Any) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8SanarKit0A4CareV2on5event8callbackySS_yypctF",
-            "mangledName": "$s8SanarKit0A4CareV2on5event8callbackySS_yypctF",
-            "moduleName": "SanarKit",
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -2447,8 +2251,8 @@
           }
         ],
         "declKind": "Struct",
-        "usr": "s:8SanarKit0A4CareV",
-        "mangledName": "$s8SanarKit0A4CareV",
+        "usr": "s:8SanarKit0A7ConnectV",
+        "mangledName": "$s8SanarKit0A7ConnectV",
         "moduleName": "SanarKit",
         "declAttributes": [
           "AccessControl"
@@ -2761,30 +2565,30 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/maren\/Desktop\/SanarKit\/SanarKit\/BWebView.swift",
+      "filePath": "\/Users\/maren\/Documents\/SanarSDK\/Framework\/SanarKit\/SanarKit\/BWebView.swift",
       "kind": "StringLiteral",
       "offset": 1130,
       "length": 11,
       "value": "\"SanarKit.Coordinator\""
     },
     {
-      "filePath": "\/Users\/maren\/Desktop\/SanarKit\/SanarKit\/ServiceView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1974,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/maren\/Desktop\/SanarKit\/SanarKit\/WebView.swift",
+      "filePath": "\/Users\/maren\/Documents\/SanarSDK\/Framework\/SanarKit\/SanarKit\/WebView.swift",
       "kind": "StringLiteral",
       "offset": 1221,
       "length": 11,
       "value": "\"SanarKit.Coordinator\""
     },
     {
-      "filePath": "\/Users\/maren\/Desktop\/SanarKit\/SanarKit\/BookingListView.swift",
+      "filePath": "\/Users\/maren\/Documents\/SanarSDK\/Framework\/SanarKit\/SanarKit\/ServiceView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1990,
+      "offset": 1980,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/maren\/Documents\/SanarSDK\/Framework\/SanarKit\/SanarKit\/BookingListView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1996,
       "length": 4,
       "value": "true"
     }
